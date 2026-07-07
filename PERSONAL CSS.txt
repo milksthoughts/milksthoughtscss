@@ -1,0 +1,1540 @@
+/*PERSONAL CSS*/
+/* VARIOUS CODES USED BY OTHER MEMBERS INCLUDING BUT NOT LIMITED TO: Katie (#106445), Pandora (#14418), Kat .:Red Lion of Voltron:.(#94329) */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+body {
+  font-size: 16px;
+  font-family: "Bodoni Moda", serif;
+  background-color: #3c584e;
+}
+
+.box2 {
+background: #2a4f3552;
+overflow: auto;
+padding: 10px;
+height: 150px;
+width: 80%;
+transition: 0.4s;
+&:hover {
+height: 400px;}}
+
+
+#commentBox{
+width: 50%;
+float: left;
+&::before {
+content: url("https://i.ibb.co/mjZ3YJD/Arkham-Knight-Icon-DC-Comics.jpg");
+position: absolute;
+left: 62%;
+margin-top: 25px;}}
+
+
+/* blob of text next to king img, made by #371719*/
+#about > tbody > tr.right > td:nth-child(1) {
+&::before {
+content: "now you know what love can feel like, you sad ? now it's gone away. brought back, we could try things over. as if there wasnt ever pain. sweeter,... this time we'll be sweeter. i can be much sweeter. some things never change,";
+width: 45%;
+height: 46% ;
+background: #233e3a45;
+position: absolute;
+left: 42%;
+border-radius: 15%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;}}
+/* snippet end */
+
+
+.col-sm-4 .left {
+       color: #8b9cff;
+text-shadow:
+   0 0 7px #0e1163,
+      0 0 10px #1ea6c7,
+      0 0 21px #2e8e94b8,
+      0 0 42px #130074,
+      0 0 82px #009eff7a,
+      0 0 92px #7dddda80,
+      0 0 102px #00e9ff00,
+      0 0 151px #00ffaa00;
+        }
+.left a {
+     color: #8b9cff;
+text-shadow:
+   0 0 7px #0e1163,
+      0 0 10px #1ea6c7,
+      0 0 21px #2e8e94b8,
+      0 0 42px #130074,
+      0 0 82px #009eff7a,
+      0 0 92px #7dddda80,
+      0 0 102px #00e9ff00,
+      0 0 151px #00ffaa00;
+        }
+
+.table th a:link {
+    color: #8b9cff;
+text-shadow:
+   0 0 7px #0e1163,
+      0 0 10px #1ea6c7,
+      0 0 21px #2e8e94b8,
+      0 0 42px #130074,
+      0 0 82px #009eff7a,
+      0 0 92px #7dddda80,
+      0 0 102px #00e9ff00,
+      0 0 151px #00ffaa00;
+}
+
+/* BACKGROUND */
+
+
+body {
+        background: url('https://i.ibb.co/gbjkmQst/IMG-8773.png ') center center fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: "Bodoni Moda", serif;
+        color: #d3dfc1
+
+}
+
+/* MAIN PANEL */
+
+
+/* RIGHT SIDE */
+.container.main {
+        background: rgb(6 15 30 / 34%);
+        border: none;
+        box-shadow: none;
+        border-radius: 30px
+
+}
+/* LEFT SIDE */
+.col-md-9 {
+        background: none;
+        border-right: none
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+
+/* revamped king box by quiqi [#371719] */
+#about > tbody > tr.right {
+display: flex !important;
+flex-direction: column;
+justify-content: left !important;
+align-items: left !important;
+padding: 0px !important;}
+#about > tbody > tr.right > td.right > table, #about > tbody > tr.right > td.right {
+width: 100% !important;}
+#lion_image {
+content: url('https://i.ibb.co/mjZ3YJD/Arkham-Knight-Icon-DC-Comics.jpg') !important;
+border-radius: 12% !important;
+overflow: hidden;
+margin-top: 2px;
+margin-left: 10px }
+
+.toplinks a {
+    color: #a4bbaeb0 !important;
+}
+
+.toplinks a:hover {
+    color: #d2ecded1 !important;
+}
+
+.welcomeback a {
+    color: #a4bbaeb0 !important;
+}
+
+.welcomeback a:hover {
+    color: #d2ecded1 !important;
+}
+
+#silverBeetlesAmt {
+     color: #a4bbaeb0 !important;
+}
+
+#goldBeetlesAmt {
+     color: #a4bbaeb0 !important;
+}
+
+.panel-body .center a {
+    color: #b1cd97 !important;
+}
+.panel-body.center a {
+    color: #a1b371 !important;
+}
+.clear a {
+    color: #638a52 !important;
+}
+
+.col-md-12 > h3 a {
+    color: #aabd93 !important;
+}
+
+.col-xs-12 .visible-md .small {
+    color: #6a8150 !important;
+}
+
+.col-xs-12 .visible-md b a {
+    color: #8f9e65 !important;
+}
+
+.b.floatleft {
+    color: #8f9e65 !important;
+}
+
+.b.floatright {
+     color: #8f9e65 !important;
+}
+
+.xlarge .bigger {
+     color: #9db98d !important;
+}
+.right .center a {
+    color: #678b5e !important;
+}
+#attack b {
+    color: #637a5d !important;
+}
+#attack .right a{
+    color: #637a5d !important;
+}
+
+.text-right a {
+    color: #a1bb9b !important;
+}
+#about .bottom a {
+    color: #a1bb9b !important;
+}
+.right_odd a {
+    color: #96c499 !important;
+}
+
+.inner-table a {
+   color: #84ac79 !important;
+}
+
+.commentTag {
+pointer-events: none;
+}
+ 
+ 
+.text-muted a {
+    visibility: hidden !important;
+    margin-right: auto;
+    pointer-events: none;
+}
+ 
+ 
+.commentText .text-muted::before {
+    content: 'By Anonymous';
+    color: #9cac91 !important;
+  z-index: 1;
+}
+ 
+ 
+.text-muted {
+color: #00000000;
+}
+
+
+.topbar {
+        background: rgb(2 43 60 / 17%);
+        border: none;
+        border-top: none;
+        color: #c9f0ff94;
+        border-radius: 0px;
+}
+
+/* TIME DAY */
+img[src$="day.png"] {
+    content:url('https://i.ibb.co/15TnX5j/download-24.webp')!important;
+        width:50px!important;
+	margin-left:-25px;
+}
+/* TIME NIGHT */
+img[src$="night.png"] {
+    content:url('https://i.ibb.co/5Wh920q0/download-24-1.webp')!important;
+        width:50px!important;
+	margin-left:-25px;
+}
+
+/* SEASON */
+/* DRY SEASON */
+img[src$="dry.png"] {
+    display: none !important;
+}
+/* WET SEASON */
+img[src$="wet.png"] {
+    display: none !important;
+}
+
+/* GB/SB ICONS */
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://i.ibb.co/kgxfjymz/download-30-2.webp')!important;
+    width:20px!important;
+ 
+}
+
+img[src$="gold.png"]:hover {
+	content: url('https://i.ibb.co/15TnX5j/download-24.webp') !important;
+}
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://i.ibb.co/Mkxj8yFJ/download-30-3.webp')!important;
+    width:20px!important;
+ 
+}
+
+img[src$="silver.png"]:hover {
+	content: url('https://i.ibb.co/bYygV8d/download-30-4.webp') !important;
+}
+ 
+/* EVENT CURRENCY */
+ 
+/* JAN */
+img[src$="dermestid.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* FEB */
+img[src$="heartshell.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* MARCH */
+img[src$="beetlerhino.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* APRIL */
+img[src$="easteregg.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+ 
+/* MAY */
+img[src$="beetlemant.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JUNE */
+img[src$="khepri.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JULY MS */
+img[src$="shard.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JULY AC */
+img[src$="axion.png"] {
+    content:url('https://i.postimg.cc/cJ5m8mrV/dg0466o-713af32e-7cf3-49f0-b0b0-8e2da591c4b8.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* AUG CB */
+img[src$="beetlecarrion.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* AUG DB */
+img[src$="bone.png"] {
+    content:url('https://i.postimg.cc/cJ5m8mrV/dg0466o-713af32e-7cf3-49f0-b0b0-8e2da591c4b8.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEPT JB */
+img[src$="beetlejewel.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEPT ET */
+img[src$="eldritch.png"] {
+    content:url('https://i.postimg.cc/cJ5m8mrV/dg0466o-713af32e-7cf3-49f0-b0b0-8e2da591c4b8.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT BB */
+img[src$="beetleblood.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT NF */
+img[src$="nephelinefeather.png"] {
+    content:url('https://i.postimg.cc/cJ5m8mrV/dg0466o-713af32e-7cf3-49f0-b0b0-8e2da591c4b8.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT DS */
+img[src$="demonicscale.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* NOV */
+img[src$="scarabbeetle.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* DEC */
+img[src$="stinkbug.png"] {
+    content:url('https://i.ibb.co/bYygV8d/download-30-4.webp')!important;
+    width:20px!important;
+ 
+}
+
+
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+
+.navbar {
+        background: rgb(31 42 75 / 36%);
+        border-bottom: 50px;
+        color: #829b5e;
+        border-radius: 50px
+}
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+.navbar li a {
+  color: #8b9cff;
+text-shadow:
+   0 0 7px #0e1163,
+      0 0 10px #1ea6c7,
+      0 0 21px #65a6aa,
+      0 0 42px #130074,
+      0 0 82px #009eff,
+      0 0 92px #7dddda80,
+      0 0 102px #00e9ff,
+      0 0 151px #0fa;
+        }
+
+.navbar-default .navbar-nav > li > a {
+color: rgb(103 141 202);
+transition: 0.5s;}
+.navbar-default .navbar-nav > li > a:hover {
+color: #d3e2eb;}
+/* Additional styling */
+
+.breadcrumb a {
+color: rgb(117 143 185);
+transition: 0.5s;}    
+
+.breadcrumb a:hover {
+color: rgb(175 203 234);    
+}
+
+.panel-default a {
+ color: rgb(179 194 121 / 85%);
+transition: 0.5s;}     
+
+.toplinks a:hover {
+	color: rgb(229 182 182 / 85%)
+}
+
+#fraProfileContent a {
+  color: rgb(179 194 121 / 85%);
+transition: 0.5s;}
+
+#fraProfileContent a:hover {
+  color: rgb(219 253 95 / 85%);
+}
+
+
+/* NAVBAR BUTTON HOVER */
+
+
+.navbar li a:hover {
+        background: rgb(86 178 145 / 14%) !important;
+        border-bottom: none;
+        color: #ffffff !important;
+        border-radius: 5px
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+
+.breadcrumb {
+        background: rgb(14 31 35 / 57%) !important;
+        border: 100px;
+        border-radius: 5px
+}
+
+
+/* BREADCRUMB TEXT */
+
+
+.breadcrumb .active {
+        color: #778da9
+}
+
+
+/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "I've finally payed you back, Bruce.";
+        color: #98b4d8;
+        position: absolute;
+        right: 13%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+
+input.floatright, input.floatright:hover {
+        background: rgb(32 46 58 / 21%) !important;
+        border: none !important;
+        border-radius: 0px;
+        color: #b5d3e2cf !important;    
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+
+
+button.button, button.button:hover {
+        background: rgb(18 29 29 / 25%) !important;
+        border: none !important;
+        border-radius: 70px;
+        text-shadow: none!important;
+        color: #a8d1c694 !important
+            
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+        background: rgb(19 68 52 / 11%) !important;
+        border: none;
+        color: rgb(215 243 207 / 94%);
+        border-radius: 0px !important
+
+}
+
+	.alert-danger a {
+    color: #ffe5acbf
+}
+        
+        .alert-danger img {
+    display: none
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+
+h1 {
+        color: #dbe2a8;
+        font-size: 35px;
+        text-align: center;
+        font-family: "Bodoni Moda", serif;
+}
+
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+        color: #a2b699;
+        font-size: 24px;
+        text-align: center
+}
+
+/* CUSTOM KING TITLE - BEFORE */
+ 
+#about > tbody > tr:nth-child(1) > td > div::before {
+    content:'ARKHAM ';
+    font-size:17px;
+    
+}
+        
+/* SMALL HEADER */
+
+
+h3 {
+        color: #94d89a !important;
+        font-size: 13px !important
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+        color: #a0da9d !important;
+        font-size: 19px !important;
+        font-family: "Bodoni Moda", serif;
+}
+
+#pageSidebar > p > a {
+	background: #728b5d24;
+	border: none;
+	color: #8bac84 !important;
+	text-shadow: none !important;
+	font-size: 13px;
+}
+
+#pageSidebar > p > a img {
+    display:none
+}
+
+/* RIGHT SIDE PANELS */
+        .col-md-9 {
+position: relative;
+float: right;
+}
+	.panel-body.clear {
+    color: rgb(21 44 47 / 61%)
+}
+.panel {
+        background: rgb(21 44 47 / 61%) !important;
+        box-shadow: none !important;
+        border: none !important;
+        color: #70895c !important;
+        border-radius: 0px
+}
+
+.panel-default .small {
+    color: #7bb081
+}
+	
+/* ENERGY BAR BACKGROUND */
+.progress {
+        background: rgb(7 33 23 / 59%);
+        color: #18213a !important;
+        border-radius: 20px !important
+}
+
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+background: #d0cbbb;
+background: linear-gradient(90deg, rgb(219 213 197) 0%, rgb(206 182 177) 50%, rgb(119 40 40 / 75%) 100%);
+border-radius: 20px !important
+}
+
+
+/* ENERGY BAR TEXT */
+.progress div {
+       color: #272e1c;
+
+}
+
+.floatleft.b {
+     color: #c09980
+}
+	.b.floatright {
+    color: #cc9b9b
+}
+/* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+        background: #223507;
+        background: radial-gradient(circle,rgb(255 248 167 / 37%) 0%, rgb(68 134 15 / 56%) 100%);
+        border: none !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+        background: #223507;
+        background: radial-gradient(circle,rgb(255 248 167 / 37%) 0%, rgb(68 134 15 / 56%) 100%);
+        border: none !important
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+        background: rgb(87 111 57 / 88%) !important;
+        color: #bdc1a1 !important;
+        border-radius: 10px !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+        color: #bcc098 !important;
+}
+
+div#chatMessageContainer {
+        border: none;
+        border-bottom: 6px double #55673b ;
+        border-top: 6px double #55673b;
+        border-radius: 10px;
+}
+/* CHAT */
+
+button#label_currentChannel {
+border: none !important;
+background: #18181d !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+background: #4a6139 !important;
+color: #85966c !important;	
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+div.emoteList.active {
+  background: #638046 !important;
+  border: 1px solid #8d9b79 !important;
+  box-shadow: none !important;
+}
+div.emoteList.active::before {
+background: #2d3426
+border-top: none !important;
+border: 1px solid #82a075 !important; }
+
+/* PINNED MESSAGES - This will change the background color of where staff pin news */
+/* This changes the color of pinged messages. Yes, it has to say background-color
+no it doesn't work if you just do background.
+may 8th: stop touchy */
+	
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: #39442d !important;
+border-left: 6px solid #708462 !important;
+color: #a1b18d !important; }
+
+/* This is the character counter, that displays X/150 */
+
+div#lblCharacterCounter {
+color: #9bad7b !important; }
+
+/* I can't remember what this does but I know things get weird if you touch it
+that means do NOT touch it.
+i'm being so fr stop touching this */
+html.nolayout {
+background: none !important; }
+
+
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+        background: #5a813c !important;
+        color: #bbc294 !important;
+        border: none !important
+}
+      
+/* Comment Box */
+        /*comment box position + box 3*/
+div#commentBox {
+margin-top: -0px;
+width: 60% !important;
+float: left !important;
+box-sizing: border-box;
+}
+
+
+div#makeComment, div#makeComment textarea {
+width: 60% !important;
+float: left;
+box-sizing: border-box;
+}
+
+
+input#postSubmit {
+display: block !important;
+margin-top: 10px !important;
+}
+
+
+div#commentBox::after {
+content: "__________";
+clear: both;
+display: table;
+}
+        
+#commentBox {
+background:url(https://i.ibb.co/rGHgNFKH/download-23.jpg") !important;
+border: 1px solid #7c896a !important;
+height: 329px !important;
+margin-top: 10px;
+overflow: auto !important;
+border-top-left-radius: 10px !important;
+border-top-right-radius: 15px !important;
+}
+
+.comment {
+background: #4a6733;
+background: linear-gradient(90deg,rgb(32 36 18) 0%, rgb(59 68 8 / 83%) 50%, rgb(0 0 0) 100%)!important;
+border-bottom: 1px solid #6c6e3fe3;
+font-weight: ;
+color: rgb(229 227 196 / 79%);
+}
+
+.comment a {color: #ffed93;}
+
+.comment .text-muted {color: #ffddf200;}
+
+#makeComment {
+background: #374013ad !important;
+border: 2px #495e2f solid;
+border-radius: 10px;
+}
+
+#comment {
+background: #e1e4d5 !important;
+color: #a2c36a !important;
+}
+
+input[type="button"].bad {
+background: #6d8339c2 !important;
+}
+
+input#postComment {
+background: #646e3bc2 !important;
+color: #fbffef;
+}
+
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+/*-------------------------*/
+/*Player Actions*/
+/*-------------------------*/
+/* Codes made by Pandora #144118 and Moses #95222.
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+
+/* REMOVE ICONS (message/gift/create trade/wishlist/view trades) */
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1),
+        
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3),
+        
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5),
+        
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1),
+        
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3),
+        
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a,
+        
+#player > tbody > tr:nth-child(3) > td.right_odd.text-right > a {
+font-size: 0px;
+}
+
+/* Default Text / Custom Player Action Text */
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+content: "You are listening, aren't you?";
+font-size: 18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+content: "Send Gift!";
+font-size: 18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+content: "Create Trade";
+font-size: 18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+content: "View Wishlist";
+font-size: 14px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+content: "View Trades";
+font-size: 14px;
+}
+
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+font-size: 18px;
+content: "Block Member";
+}
+
+#player > tbody > tr:nth-child(3) > td.right_odd.text-right > a::after {
+font-size: 18px;
+content: "Add Friend";
+}
+
+
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://i.ibb.co/15TnX5j/download-24.webp') !important;
+     width:20px!important;
+     height:20px;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://i.ibb.co/5Wh920q0/download-24-1.webp')!important;
+     width:20px!important;
+     height:20px;
+ 
+}
+
+
+/* PANEL BACKGROUND COLOR */
+
+
+.table {
+        background: rgb(46 86 72 / 28%);
+        border: none !important;
+        border-collapse: seperate !important
+        border-radius: 20px
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+
+.top,
+.bottom,
+th {
+        background: rgb(39 50 46 / 31%) !important;
+        color: #a8c095 !important;
+        border-radius: 10px
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+
+.inner-table .left {
+        background: rgb(80 121 78 / 55%) !important;
+        color: #bed0b8;
+        box-sizing: 50% !important;
+        border-radius: 5px !important;
+        
+}
+
+
+
+
+/* Color behind the number of all of the things above */
+
+
+.inner-table .right {
+        background: #82a06f3b;
+        border-radius: 30px !important
+        
+}#about .inner-table {
+    margin-left: 10px
+}
+
+
+td.right {
+        border-radius: 0px !important
+}
+
+
+/* IGNORE */
+.right_odd {
+        background: none !important
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+
+.cave-grid,
+.mound-grid {
+        background: rgb(150 172 124 / 0%);
+        border: solid #74a67100 !important;
+        border-radius: 30px !important
+}
+
+/* FEED ALL, PLAY ALL */
+
+center > b {
+    color: #c2cdb5 !important;
+}
+
+b span {
+    color: #8fb160 !important;
+}
+
+.feature {
+        background: rgb(73 90 58) !important;
+        color: #dee2bb !important;
+        border: 5px solid #5b613f !important;
+        border-radius: 0px !important
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+
+.feature,
+div.left {
+        background: rgb(39 65 63 / 50%);
+        border: none;
+        border-radius: 20px !important
+}
+
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+
+.table .left {
+        background: rgb(107 137 82 / 34%);
+        border-radius: 90px
+}
+
+
+/* Color behind the content of the elements listed above */
+
+
+input,
+select,
+textarea {
+        background: rgb(93 142 100 / 55%) !important;
+        border: none !important;
+        border-radius: 10px !important;
+        color: #cad5b9 !important;
+        box-shadow: none !important;
+        text-shadow: none !important
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+
+.item-header {
+        background: rgba(0, 0, 0, 0.9) !important;
+        color: #ffffff  !important;
+        border-radius: 0px !important;
+}
+
+
+.item {
+        background: rgba(0, 0, 0, 0.9) !important;
+        border: none !important;
+        border-radius: 0px !important
+}
+
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+
+div.slider.round /* Background */ {
+        background: #ffffff !important
+}
+
+
+div.slider.round::before /* Circle Part */ {
+        background: #ffffff !important
+}
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+.col-xs-10 a {
+   color: #bec78d !important; 
+}
+.col-xs-10 {
+    color: #f3f5e9 !important;
+}
+
+img[src$="iconFB.png"] {
+	content: url("https://i.ibb.co/5Wh920q0/download-24-1.webp");
+        filter: brightness(100%) opacity(70%);
+        transition: 0.5s !important;
+        height: 55px;
+        width: auto !important	}
+
+img[src$="iconFB.png"]:hover,
+	a[href="https://www.facebook.com/liodengame/"]:hover img,
+	a[href="https://www.facebook.com/liodengame/"]:active img,
+	a[href="https://www.facebook.com/liodengame/"]:focus img{
+		content: url('https://i.ibb.co/15TnX5j/download-24.webp') !important; 
+}
+ 
+img[src$="iconTwit.png"] {
+        content: url("https://i.ibb.co/5Wh920q0/download-24-1.webp");
+        filter: brightness(100%) opacity(70%);
+        transition: 0.5s !important;
+        height: 55px;
+        width: auto !important	}
+
+img[src$="iconTwit.png"]:hover,
+	a[href="https://twitter.com/liodengame"]:hover img,
+	a[href="https://twitter.com/liodengame"]:active img,
+	a[href="https://twitter.com/liodengame"]:focus img {
+        content: url("https://i.ibb.co/15TnX5j/download-24.webp");	}
+ 
+img[src$="iconInsta.png"] {
+        content: url("https://i.ibb.co/5Wh920q0/download-24-1.webp");
+        filter: brightness(100%) opacity(70%);
+        transition: 0.5s !important;
+        height: 55px;
+        width: auto !important	}
+
+img[src$="iconInsta.png"]:hover,
+	a[href="https://www.twitch.tv/lioden"]:hover img,
+	a[href="https://www.twitch.tv/lioden"]:active img,
+	a[href="https://www.twitch.tv/lioden"]:focus img {
+        content: url("https://i.ibb.co/15TnX5j/download-24.webp");	}
+ 
+
+
+/* SCROLL BAR */
+
+
+/* WIDTH */
+
+
+::-webkit-scrollbar {
+        width: 9px
+}
+
+
+
+
+/* BACKGROUND */
+
+
+::-webkit-scrollbar-track {
+        background: #031926;
+        background: linear-gradient(0deg,rgb(7 61 55) 0%, rgb(19 25 6) 100%);
+        
+}
+}
+
+
+
+
+/* "THUMB" */
+
+
+::-webkit-scrollbar-thumb {
+        background: #000000;
+        border-radius: 40px
+}
+
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+
+div#lion_image {
+        opacity: 1
+}
+
+
+table#player img {
+        opacity: 1
+}
+
+
+/* DISPLAY CONTENT */
+#about .right > td {
+    display: flex
+}
+
+.right > td > a {
+    align-items: center
+}
+
+/* CIRCULAR LION AND USER AVATAR */
+
+
+/*Replacing King/Queen's Image*/
+
+
+table#player img {
+        border-radius: 30% !important;
+        overflow: hidden
+}
+
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	display: none
+}
+
+
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+    font-size:0px;
+    
+}
+ 
+
+/* REMOVE ICON (friend request) */
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a {
+    font-size:0px;
+    
+}
+ 
+#player > tbody > tr:nth-child(3) > td:nth-child(2) > a::after {
+    content:'Join?';
+     font-family: "Bodoni Moda", serif;
+    font-size:14px;
+}
+.right_odd img {
+    display:none
+}
+
+.xlarge img {
+ display: none
+}
+
+.right .center img {
+    display: none
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1),
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3),
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5),
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1),
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3),
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a,
+#player > tbody > tr:nth-child(3) > td.right_odd.text-right > a {
+font-size: 0px;
+}
+
+/* Default Text / Custom Player Action Text */
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+content: "Talk.";
+   font-family: "Bodoni Moda", serif;
+    font-size:19px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+content: "Tonight, you pay.";
+   font-family: "Bodoni Moda", serif;
+    font-size:19px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+content: "I'm watching.";
+   font-family: "Bodoni Moda", serif;
+    font-size: 19px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+content: "Batman, is that you?";
+   font-family: "Bodoni Moda", serif;
+    font-size:18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+content: "Prepare for extractions";
+   font-family: "Bodoni Moda", serif;
+    font-size:18px;
+}
+
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+font-size: 18px;
+content: "It's over, hero. Goodbye.";
+font-family: "Bodoni Moda", serif;
+font-size:18px;
+}
+
+#player > tbody > tr:nth-child(3) > td.right_odd.text-right > a::after {
+font-size: 18px;
+content: "Join?";
+}
+
+.cave-grid {
+	transition: transform 0.2s ease;
+     background: none ;
+     border: var(--border);
+     border-radius: 5px !important}
+div.cave-grid>img:hover, img[src$="addbeetlemound.png"]:hover {
+	filter: saturate(.15);
+	transition: 0.1s;}
+.cave-grid:hover {
+	transform: scale(1.02);}
+
+/* CAVE / MOUND IMAGES */
+
+a[href$="unsorted.php?id=527967"]>div.cave-grid {
+height: 120px!important; /* This is to get rid of the text portion below the cave normally */
+}
+
+a[href$="unsorted.php?id=527967"]>div.cave-grid>img {
+content: url('https://i.ibb.co/Gv3jp12Z/download-20.jpg')!important;
+height: 120px!important;
+transition: all .5s ease-out!important; /* How fast you want the image to fade in and out */
+}
+ 
+ 
+/* PREGNANT LIONESSES */
+a[href$="nesting.php"]>div.cave-grid {
+height: 120px!important; /* This is to get rid of the text portion below the cave normally */
+}
+
+a[href$="nesting.php"]>div.cave-grid>img {
+content: url('https://i.ibb.co/V0FsHKrF/Arkham-Knight-2.jpg') !important;
+height: 120px!important; /* If you want to change the height of the cave image - Note, this distorts the image I believe */
+transition: all .5s ease-out!important; /* How fast you want the image to fade in and out */
+}
+ 
+ 
+ 
+/* PRIDE OVERVIEW */
+a[href$="lionoverview.php?id=527967"]>div.cave-grid>img {
+content: url('https://i.ibb.co/FbZLBXmd/Arkham-Knight-Wallpaper.jpg')!important;
+height: 120px!important;
+transition: all .5s ease-out!important; 
+}
+ 
+a[href$="lionoverview.php?id=527967"]>div.cave-grid {
+height: 120px!important; /* This is to get rid of the text portion below the cave normally */
+}
+ 
+
+/* CAVES (COPY AND PASTE TO ADD MORE) */
+a[href$="506706"]>div.cave-grid>img {
+content: url('https://i.ibb.co/3Y4YNnZg/download-18.jpg')!important;
+height: 150px!important; /* If you want to change the height of the cave image - Note, this distorts the image I believe */
+transition: all .5s ease-out!important; /* How fast you want the image to fade in and out */
+}
+ 
+a[href$="506706"]>div.cave-grid {
+height: 153px!important; /* This is to get rid of the text portion below the cave normally */
+}
+ 
+a[href$="506706"]>.cave-grid::after {
+content: 'CAVE'!important;
+display:block;
+background-color: rgb(179 213 163); /* This is for the background square of the text. You can also use #HEXCODE like so - background-color: #000000; */
+color: rgb(45 102 100 / 72%); /* This is the text color. You can also use #HEXCODE like so - color: #000000; */
+padding: 4px 50px; /* This is how far from the edge of the background-color the text is. It goes xpx ypx */
+transition: all 5s ease-out!important; /* How fast you want the text to fade in and out */
+border-radius: 20%; /* If you want rounded corners to the background-color square */
+top: 77%; /* How far from the top of the cave image you want the text to show up */
+left: 16%; /* How far from the left of the cave image you want the text to show up */
+transform: translate(-80%, -80%,); /* Moves the cave name box */
+position: absolute!important;
+opacity: 0;
+}
+
+/* CAVES (COPY AND PASTE TO ADD MORE) */
+a[href$="506708"]>div.cave-grid>img {
+content: url('https://i.ibb.co/TMZxBFYF/arkham-knight-1.jpg')!important;
+height: 150px!important; /* If you want to change the height of the cave image - Note, this distorts the image I believe */
+transition: all .5s ease-out!important; /* How fast you want the image to fade in and out */
+}
+ 
+a[href$="506708"]>div.cave-grid {
+height: 153px!important; /* This is to get rid of the text portion below the cave normally */
+}
+ 
+a[href$="506708"]>.cave-grid::after {
+content: 'CAVE'!important;
+display:block;
+background-color: rgb(179 213 163); /* This is for the background square of the text. You can also use #HEXCODE like so - background-color: #000000; */
+color: rgb(45 102 100 / 72%); /* This is the text color. You can also use #HEXCODE like so - color: #000000; */
+padding: 4px 50px; /* This is how far from the edge of the background-color the text is. It goes xpx ypx */
+transition: all 5s ease-out!important; /* How fast you want the text to fade in and out */
+border-radius: 20%; /* If you want rounded corners to the background-color square */
+top: 77%; /* How far from the top of the cave image you want the text to show up */
+left: 16%; /* How far from the left of the cave image you want the text to show up */
+transform: translate(-80%, -80%,); /* Moves the cave name box */
+position: absolute!important;
+opacity: 0;
+}
+ 
+ 
+/* CAVES (COPY AND PASTE TO ADD MORE) */
+a[href$="472990"]>div.cave-grid>img {
+content: url('https://i.ibb.co/rfGN6rSm/IMG-8948.webp')!important;
+height: 150px!important; /* If you want to change the height of the cave image - Note, this distorts the image I believe */
+transition: all .5s ease-out!important; /* How fast you want the image to fade in and out */
+}
+ 
+a[href$="472990"]>div.cave-grid {
+height: 153px!important; /* This is to get rid of the text portion below the cave normally */
+}
+ 
+a[href$="472990"]>.cave-grid::after {
+content: 'CAVE'!important;
+display:block;
+background-color: rgb(179 213 163); /* This is for the background square of the text. You can also use #HEXCODE like so - background-color: #000000; */
+color: rgb(45 102 100 / 72%); /* This is the text color. You can also use #HEXCODE like so - color: #000000; */
+padding: 4px 50px; /* This is how far from the edge of the background-color the text is. It goes xpx ypx */
+transition: all 5s ease-out!important; /* How fast you want the text to fade in and out */
+border-radius: 20%; /* If you want rounded corners to the background-color square */
+top: 77%; /* How far from the top of the cave image you want the text to show up */
+left: 16%; /* How far from the left of the cave image you want the text to show up */
+transform: translate(-80%, -80%,); /* Moves the cave name box */
+position: absolute!important;
+opacity: 0;
+}
+
+a[href$="527967"]>.mound-grid>img {
+content: url('https://i.ibb.co/rfGN6rSm/IMG-8948.webp')!important;
+height: 0px!important; /* If you want to change the height of the cave image - Note, this distorts the image I believe */
+transition: all .5s ease-out!important; /* How fast you want the image to fade in and out */
+}
+
+a[href$="527967"]>div.mound-grid {
+height: 0px!important; /* This is to get rid of the text portion below the cave normally */
+}
+
+a[href$="231476"]>.mound-grid>img {
+content: url('https://i.ibb.co/rGHgNFKH/download-23.jpg')!important;
+height: 0px!important; /* If you want to change the height of the cave image - Note, this distorts the image I believe */
+transition: all .5s ease-out!important; /* How fast you want the image to fade in and out */
+}
+
+a[href$="231476"]>div.mound-grid {
+height: 0px!important; /* This is to get rid of the text portion below the cave normally */
+}
+
+a[href$="258074"]>.mound-grid>img {
+content: url('https://i.ibb.co/rfGN6rSm/IMG-8948.webp')!important;
+height: 0px!important; /* If you want to change the height of the cave image - Note, this distorts the image I believe */
+transition: all .5s ease-out!important; /* How fast you want the image to fade in and out */
+}
+
+a[href$="258074"]>div.mound-grid {
+height: 0px!important; /* This is to get rid of the text portion below the cave normally */
+}
+
+/* change beetle book image */
+.row.dynastycollection {
+        display:none
+}
+
+        table#allies.table {
+	display: none !important;
+	visibility: hidden !important;
+}
+        table#clans.table {
+	display: none !important;
+	visibility: hidden !important;
+}
+/* fits all elements on one line */
+body > div.container.main > div > div.col-md-9.col-xs-12 > center {
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+}
+.dynastylist {
+    flex: 1 1 auto;
+    max-width: 20%; 
+    box-sizing: border-box; 
+}
+/* resizes all images to fit the new layout */
+.dynastylist img {
+    height: 100%!important;
+     width: 100%!important;
+    border-radius: 20px;
+}
+ 
+/* font option 1 - apply font size to all headers at once.  */
+.dynastylist h3 {
+    word-break: break-all;
+    font-size: 18px !important; /* Adjust font size for all headers */
+}
+ 
+
+
+/* EXTRA DECORATIONS */
+        @media (min-width: 769px) {
+    .navbar-default::after {
+        content: '';
+        background-image: url('');
+            background-size: cover;
+    height: 350px;
+    width: 340px;
+    position: fixed;
+    right: 0;
+    bottom: 1rem;
+    z-index: 3;
+}
+
+
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(''), auto !important;} /* End https://www.cursors-4u.com */
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+        display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+                div.quote {
+                        width: 790px;
+                }
+        }
